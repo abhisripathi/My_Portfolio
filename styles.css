@@ -26,7 +26,7 @@ html{
     color: #333;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
     border-bottom: 0.3rem solid #333;
     text-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
@@ -224,6 +224,15 @@ flex-direction: column;
     transform: skew(-10deg);
     box-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
+
+.summary {
+    width: 40%; /* Ensure you specify a unit for width, e.g., %, px, em */
+    font-size: 2rem;
+    margin-bottom: 10rem;
+    margin-top: 0;
+    text-align: justify; /* Justify the text */
+}
+
 /* End of section 2 */
 
 /* Section 3 */
@@ -300,6 +309,7 @@ flex-direction: column;
     opacity: 0.7;
 }
 .project-link{
+    
     font-size: 2rem;
     font-weight: 600;
     color:chocolate;
@@ -307,7 +317,6 @@ flex-direction: column;
     border: 0.3rem solid pink;
     padding: 0 1rem;
     background-color: #fff;
-    position: absolute;
     bottom: -5rem;
     transition: bottom 0.3s;
 }
@@ -315,6 +324,7 @@ flex-direction: column;
 .project:hover .project-link{
     bottom: 5rem;
 }
+
 /* End of Section 3 */
 
 /* Section 4 */
