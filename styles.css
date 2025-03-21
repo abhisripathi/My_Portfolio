@@ -61,8 +61,8 @@ flex-direction: column;
 }
 
 .person-img{
-    width: 25rem;
-    height: 25rem;
+    width: 30rem;
+    height: 30rem;
     object-fit: cover;
     border-radius: 50%;
     border: 0.7rem dotted rgba(255,255,255,0.3);
@@ -71,7 +71,7 @@ flex-direction: column;
 }
 
 .person-name{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: antiquewhite;;
     background-color: rgba(255,255,255,0.3);
     margin:5rem 0;
@@ -410,6 +410,28 @@ flex-direction: column;
     text-align: center;
 }
 /* End of Section - 5 */
+
+/* Resume Download Button in Navbar */
+.resume-btn {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    /* background-color: #007bff; */
+    background-color: rgba(255,255,255,0.3);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.resume-btn:hover {
+    background-color: #444;
+}
+
+
 
 /* Responsive */
 @media(max-width:1200px){
